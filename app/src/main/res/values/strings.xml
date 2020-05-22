@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Samples2</string>
+    <string name="btn">Button</string>
+    <string name="text">Hello World!</string>
+    <string name="empty_text"> </string>
+    <string name="sey_hello">Say Hello</string>
+    <string name="clean">Clean Text</string>
+    <string name="blue">Blue</string>
+    <string name="pink">Pink</string>
+    <string name="red">Red</string>
+    <string name="background_color">Background</string>
+    <string name="change_image">Change Image</string>
+    <string name="android">I am Android Robot</string>
+    <string name="man">I am Man</string>
+    <array name="items">
+        <item>Porsche</item>
+        <item>Maseratti</item>
+        <item>Ferrari</item>
+        <item>Lamborghini</item>
+        <item>Mercedes-Benz</item>
+        <item>BMW</item>
+    </array>
+</resources>
