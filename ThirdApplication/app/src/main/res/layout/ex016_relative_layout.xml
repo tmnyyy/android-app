@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="@string/day_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:onClick="click"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/day_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:onClick="click"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+
+    <Button
+        android:text="@string/min_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="click"
+        android:layout_marginBottom="66dp"
+        android:layout_above="@+id/button8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/min_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:id="@+id/button9" />
+
+    <TextView
+        android:text="@string/minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/button9"
+        android:layout_alignEnd="@+id/button9"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+    <TextView
+        android:text="@string/hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+</RelativeLayout>

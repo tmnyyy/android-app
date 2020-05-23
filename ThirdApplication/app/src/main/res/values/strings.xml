@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Samples3</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="initial_hello">Initial Hello</string>
+    <string name="empty_text" />
+    <string name="write_your_name">Write your name:</string>
+    <string name="login">Press login:</string>
+    <string name="password">Press password:</string>
+    <string name="log">Login:</string>
+    <string name="translate">Переведите слово яйцо</string>
+    <string name="letterA">A</string>
+    <string name="letterO">O</string>
+    <string name="letterC">C</string>
+    <string name="letterH">H</string>
+    <string name="letterE">E</string>
+    <string name="letterG">G</string>
+    <string name="letterP">P</string>
+    <string name="hour">0</string>
+    <string name="minute">0</string>
+    <string name="day_left">Down Hour</string>
+    <string name="day_right">Up Hour</string>
+    <string name="min_up">MIN UP</string>
+    <string name="min_down">MIN DOWN</string>
+    <string name="register">Register</string>
+</resources>
