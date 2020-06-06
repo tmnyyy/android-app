@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itstep.fiveapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ex_001_fragment_example.MainActivity" />
+        <activity android:name=".ex_002_adding_fragment.MainActivity" />
+        <activity android:name=".ex_003_fragments_and_activity.MainActivity" />
+        <activity android:name=".ex_004_fragments_lifecycle.MainActivity" />
+        <activity android:name=".ex_005_send_data_from_activity.MainActivity" />
+        <activity android:name=".ex_006_fragment_example.RegisterOrLoginActivity" />
+        <activity android:name=".ex_007_menu_example.MainActivity" />
+        <activity android:name=".ex_007_menu_example.OfficialSiteActivity" />
+        <activity android:name=".ex_008_navigation_tabs.MainActivity" />
+        <activity android:name=".ex_009_navigation_list.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:name=".ex_010_dinamic_action_bar.MainActivity" />
+        <activity android:name=".ex_011_action_mode.MainActivity" />
+        <activity android:name=".ex_012_dialog_fragment.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itstep.sixapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ex_001_simple_list.MainActivity" />
+        <activity android:name=".ex_002_layout_inflater.MainActivity" />
+        <activity android:name=".ex_003_custom_item.MainActivity" />
+        <activity android:name=".ex_004_single_choice.MainActivity" />
+        <activity android:name=".ex_005_multiple_choice.MainActivity" />
+        <activity android:name=".ex_006_listeners_in_list.MainActivity" />
+        <activity android:name=".ex_007_add_data.MainActivity" />
+        <activity android:name=".ex_008_simple_list_adapter.MainActivity" />
+        <activity android:name=".ex_009_text_image.MainActivity" />
+        <activity android:name=".ex_010_view_binder.MainActivity" />
+        <activity android:name=".ex_011_header_and_footer.MainActivity" />
+        <activity android:name=".ex_012_spinner.MainActivity" />
+        <activity android:name=".ex_013_grid_view.MainActivity" />
+        <activity android:name=".ex_014_expandable_list_view.MainActivity" />
+        <activity android:name=".ex_015_list_fragment.MainActivity" />
+        <activity android:name=".ex_016_list_dialog.MainActivity" />
+        <activity android:name=".ex_017_action_mode_list.MainActivity" />
+
+    </application>
+
+</manifest>

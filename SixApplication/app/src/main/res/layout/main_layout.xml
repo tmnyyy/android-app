@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/ex_001_simple_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_001_simple_list"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_002_layout_inflater"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_002_layout_inflater"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_003_custom_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_003_custom_item"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_004_choise_mode_single"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_004_choise_mode_single"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_005_choise_mode_multiple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_005_choise_mode_multiple"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_006_listeners"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_006_listeners"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_007_add_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_007_add_data"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_008_simple_adapter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_008_simple_adapter"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_009_methods_simple_adapter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_009_methods_simple_adapter"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_010_view_binder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_010_view_binder"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_011_header_and_footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_011_header_and_footer"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_012_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_012_spinner"
+                android:onClick="click" />
+
+            <Button
+            android:id="@+id/ex_013_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_013_grid_view"
+            android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_014_expandable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_014_expandable"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_015_list_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_015_list_fragment"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_016_dialog_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_016_dialog_list"
+                android:onClick="click" />
+
+            <Button
+                android:id="@+id/ex_017_action_mode_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex_017_action_mode"
+                android:onClick="click" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
